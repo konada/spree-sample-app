@@ -31,3 +31,6 @@
 
 en:
   hello: "Hello world"
+  spree:
+    users_csv: Registered Users
+    users_csv_description: Download Registered Users Report in CSV
