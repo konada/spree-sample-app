@@ -22,3 +22,6 @@
 
 .byebug_history
 /config/secrets.yml
+
+coverage
+specs.out

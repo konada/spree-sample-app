@@ -20,9 +20,29 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
+  gem 'better_errors'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capybara', '~> 2.13'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-activemodel-mocks'
+  gem 'rspec-activejob'
+  gem 'spring-commands-rspec'
+  gem 'shoulda-matchers', require: false
+  gem 'factory_bot'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner'
+  gem 'ffaker'
+  gem 'bullet'
   gem 'selenium-webdriver'
+  gem 'poltergeist'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'capybara-screenshot'
+  gem 'launchy'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'codeclimate-test-reporter', require: nil
 end
 
 group :development do
