@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/spree-contrib/spree_analytics_trackers.git
+  revision: 53a42b670d83d8896d7d77ca94b6dfda72180e49
+  specs:
+    spree_analytics_trackers (1.0.0.beta)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -457,6 +466,7 @@ DEPENDENCIES
   selenium-webdriver
   shoulda-matchers
   spree (~> 3.4.4)
+  spree_analytics_trackers!
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
   spring
